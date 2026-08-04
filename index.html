@@ -46,28 +46,37 @@
   <div id="cursor-dot" class="cursor-dot"></div>
 
   <!-- Header -->
-  <header class="sticky top-0 z-40 bg-white/85 backdrop-blur-md border-b border-slate-200/80 shadow-sm">
-    <div class="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
-      <a href="#" class="flex items-center gap-2.5 group">
-        <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-indigo-600 to-purple-600 font-outfit font-extrabold text-white text-sm flex items-center justify-center shadow-md group-hover:scale-105 transition-transform">
-          BS
-        </div>
-        <span class="font-outfit font-bold text-slate-900 text-lg tracking-tight group-hover:text-indigo-600 transition-colors">
-          Madagani Bhavya Sai
-        </span>
-      </a>
+  <header class="sticky top-0 z-40 bg-white/90 backdrop-blur-md border-b border-slate-200/90 shadow-sm">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 py-3 sm:py-4 flex flex-col sm:flex-row items-center justify-between gap-3 sm:gap-4">
+      
+      <div class="flex items-center justify-between w-full sm:w-auto">
+        <a href="#" class="flex items-center gap-2.5 group">
+          <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-indigo-600 to-purple-600 font-outfit font-extrabold text-white text-sm flex items-center justify-center shadow-md group-hover:scale-105 transition-transform">
+            BS
+          </div>
+          <span class="font-outfit font-bold text-slate-900 text-lg tracking-tight group-hover:text-indigo-600 transition-colors">
+            Madagani Bhavya Sai
+          </span>
+        </a>
 
-      <nav class="hidden sm:flex items-center gap-6 text-sm font-semibold text-slate-600">
-        <a href="#about" class="hover:text-indigo-600 transition-colors py-1">About</a>
-        <a href="#internships" class="hover:text-indigo-600 transition-colors py-1">Experience</a>
-        <a href="#projects" class="hover:text-indigo-600 transition-colors py-1">Projects</a>
-        <a href="#skills" class="hover:text-indigo-600 transition-colors py-1">Skills</a>
-        <a href="#certifications" class="hover:text-indigo-600 transition-colors py-1">Certifications</a>
-        <a href="#achievements" class="hover:text-indigo-600 transition-colors py-1">Achievements</a>
-        <a href="#contact" class="hover:text-indigo-600 transition-colors py-1">Contact</a>
+        <button class="download-resume-btn sm:hidden btn-indigo px-3 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5">
+          <svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /><polyline points="7 10 12 15 17 10" /><line x1="12" x2="12" y1="15" y2="3" /></svg>
+          <span class="btn-text">Resume</span>
+        </button>
+      </div>
+
+      <!-- Navigation Tabs (Always Visible & Scrollable on Mobile) -->
+      <nav class="flex items-center gap-2 sm:gap-5 text-xs sm:text-sm font-semibold text-slate-700 overflow-x-auto w-full sm:w-auto pb-1 sm:pb-0 scrollbar-none whitespace-nowrap px-1">
+        <a href="#about" class="px-2.5 py-1 rounded-lg hover:text-indigo-600 hover:bg-indigo-50/80 transition-all">About</a>
+        <a href="#internships" class="px-2.5 py-1 rounded-lg hover:text-indigo-600 hover:bg-indigo-50/80 transition-all">Experience</a>
+        <a href="#projects" class="px-2.5 py-1 rounded-lg hover:text-indigo-600 hover:bg-indigo-50/80 transition-all">Projects</a>
+        <a href="#skills" class="px-2.5 py-1 rounded-lg hover:text-indigo-600 hover:bg-indigo-50/80 transition-all">Skills</a>
+        <a href="#certifications" class="px-2.5 py-1 rounded-lg hover:text-indigo-600 hover:bg-indigo-50/80 transition-all">Certifications</a>
+        <a href="#achievements" class="px-2.5 py-1 rounded-lg hover:text-indigo-600 hover:bg-indigo-50/80 transition-all">Achievements</a>
+        <a href="#contact" class="px-2.5 py-1 rounded-lg hover:text-indigo-600 hover:bg-indigo-50/80 transition-all">Contact</a>
       </nav>
 
-      <button className="download-resume-btn btn-indigo px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold flex items-center gap-2">
+      <button class="download-resume-btn hidden sm:flex btn-indigo px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold items-center gap-2">
         <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /><polyline points="7 10 12 15 17 10" /><line x1="12" x2="12" y1="15" y2="3" /></svg>
         <span class="btn-text">Download Resume</span>
       </button>
