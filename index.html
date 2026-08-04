@@ -58,11 +58,13 @@
       </a>
 
       <nav class="hidden sm:flex items-center gap-6 text-sm font-semibold text-slate-600">
-        <a href="#about" className="hover:text-indigo-600 transition-colors py-1">About</a>
-        <a href="#internships" className="hover:text-indigo-600 transition-colors py-1">Experience</a>
-        <a href="#projects" className="hover:text-indigo-600 transition-colors py-1">Projects</a>
-        <a href="#skills" className="hover:text-indigo-600 transition-colors py-1">Skills</a>
-        <a href="#contact" className="hover:text-indigo-600 transition-colors py-1">Contact</a>
+        <a href="#about" class="hover:text-indigo-600 transition-colors py-1">About</a>
+        <a href="#internships" class="hover:text-indigo-600 transition-colors py-1">Experience</a>
+        <a href="#projects" class="hover:text-indigo-600 transition-colors py-1">Projects</a>
+        <a href="#skills" class="hover:text-indigo-600 transition-colors py-1">Skills</a>
+        <a href="#certifications" class="hover:text-indigo-600 transition-colors py-1">Certifications</a>
+        <a href="#achievements" class="hover:text-indigo-600 transition-colors py-1">Achievements</a>
+        <a href="#contact" class="hover:text-indigo-600 transition-colors py-1">Contact</a>
       </nav>
 
       <button className="download-resume-btn btn-indigo px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold flex items-center gap-2">
@@ -472,15 +474,16 @@
 
     <hr class="border-slate-200/80" />
 
-    <!-- Certifications & Achievements Section -->
+    <!-- Certifications Section -->
     <section id="certifications" class="space-y-6">
       <div class="space-y-1">
-        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-50/90 border border-amber-200 text-amber-800 text-xs font-mono font-bold">
-          <span>HONORS & CREDENTIALS</span>
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-50/90 border border-indigo-200 text-indigo-700 text-xs font-mono font-bold">
+          <span>PROFESSIONAL CREDENTIALS</span>
         </div>
         <h2 class="text-2xl sm:text-3xl font-outfit font-extrabold text-slate-900 tracking-tight">
-          Certifications & <span class="text-gradient-amber">Academic Honors</span>
+          Certifications & <span class="text-gradient-indigo">Global Credentials</span>
         </h2>
+        <p class="text-slate-500 text-sm">Verified certifications across AI/ML, Cloud Architecture, Data Analytics, and NPTEL Honors.</p>
       </div>
 
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
@@ -605,40 +608,59 @@
           <p class="text-xs text-slate-600 font-mono">HackerRank Verified • SQL</p>
         </div>
 
-        <!-- 11. Academic Excellence Award -->
-        <div class="color-card color-card-emerald p-5 rounded-2xl space-y-1.5 border border-emerald-200 bg-emerald-50/20">
+      </div>
+    </section>
+
+    <hr class="border-slate-200/80" />
+
+    <!-- Academic Honors & Achievements Section -->
+    <section id="achievements" class="space-y-6">
+      <div class="space-y-1">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-50/90 border border-amber-200 text-amber-800 text-xs font-mono font-bold">
+          <span>HONORS & RECOGNITIONS</span>
+        </div>
+        <h2 class="text-2xl sm:text-3xl font-outfit font-extrabold text-slate-900 tracking-tight">
+          Academic <span class="text-gradient-amber">Honors & Achievements</span>
+        </h2>
+        <p class="text-slate-500 text-sm">Department academic rank 1 honors and national competition awards.</p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-5">
+        
+        <!-- Achievement 1: Academic Excellence Award -->
+        <div class="color-card color-card-emerald p-6 rounded-2xl space-y-2 border border-emerald-200 bg-emerald-50/30">
           <div class="flex justify-between items-center">
             <span class="px-2.5 py-0.5 rounded bg-emerald-100 text-emerald-800 font-mono text-[10px] font-bold border border-emerald-300">
-              COLLEGE HONOR
+              DEPARTMENT RANK 1
             </span>
-            <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="text-emerald-600"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" /><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" /><path d="M4 22h16" /><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22" /><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" /><path d="M18 2H6v7a6 6 0 0 0 12 0V2z" /></svg>
+            <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="text-emerald-600"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" /><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" /><path d="M4 22h16" /><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22" /><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" /><path d="M18 2H6v7a6 6 0 0 0 12 0V2z" /></svg>
           </div>
-          <h3 class="font-outfit font-bold text-slate-900 text-base pt-1">Academic Excellence Award</h3>
-          <p class="text-xs text-slate-600 font-mono">MITS AI & ML Dept (2024 & 2025) • 9.58 CGPA</p>
+          <h3 class="font-outfit font-bold text-slate-900 text-lg pt-1">Academic Excellence Award</h3>
+          <p class="text-xs text-slate-600 leading-relaxed">Awarded Department Rank 1 for consecutive academic years (2024 & 2025) in B.Tech CSE (AI & ML) with 9.58 / 10 CGPA.</p>
         </div>
 
-        <!-- 12. Engineers Got Talent Winner -->
-        <div class="color-card color-card-indigo p-5 rounded-2xl space-y-1.5 border border-indigo-200 bg-indigo-50/20">
+        <!-- Achievement 2: Engineers Got Talent Winner -->
+        <div class="color-card color-card-indigo p-6 rounded-2xl space-y-2 border border-indigo-200 bg-indigo-50/30">
           <div class="flex justify-between items-center">
             <span class="px-2.5 py-0.5 rounded bg-indigo-100 text-indigo-800 font-mono text-[10px] font-bold border border-indigo-300">
               NATIONAL WINNER
             </span>
-            <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="text-indigo-600"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" /><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" /><path d="M4 22h16" /><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22" /><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" /><path d="M18 2H6v7a6 6 0 0 0 12 0V2z" /></svg>
+            <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="text-indigo-600"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" /><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" /><path d="M4 22h16" /><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22" /><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" /><path d="M18 2H6v7a6 6 0 0 0 12 0V2z" /></svg>
           </div>
-          <h3 class="font-outfit font-bold text-slate-900 text-base pt-1">Engineers Got Talent Winner</h3>
-          <p class="text-xs text-slate-600 font-mono">First Prize Winner • Technical Competition</p>
+          <h3 class="font-outfit font-bold text-slate-900 text-lg pt-1">Engineers Got Talent Winner</h3>
+          <p class="text-xs text-slate-600 leading-relaxed">First Prize Winner in Engineers Got Talent competition showcasing innovative technical problem-solving capabilities.</p>
         </div>
 
-        <!-- 13. ISTE Paper Presentation -->
-        <div class="color-card color-card-purple p-5 rounded-2xl space-y-1.5 border border-purple-200 bg-purple-50/20">
+        <!-- Achievement 3: ISTE Paper Presentation -->
+        <div class="color-card color-card-purple p-6 rounded-2xl space-y-2 border border-purple-200 bg-purple-50/30">
           <div class="flex justify-between items-center">
             <span class="px-2.5 py-0.5 rounded bg-purple-100 text-purple-800 font-mono text-[10px] font-bold border border-purple-300">
               FIRST PRIZE
             </span>
-            <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="text-purple-600"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" /><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" /><path d="M4 22h16" /><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22" /><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" /><path d="M18 2H6v7a6 6 0 0 0 12 0V2z" /></svg>
+            <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="text-purple-600"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" /><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" /><path d="M4 22h16" /><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22" /><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" /><path d="M18 2H6v7a6 6 0 0 0 12 0V2z" /></svg>
           </div>
-          <h3 class="font-outfit font-bold text-slate-900 text-base pt-1">ISTE Paper Presentation</h3>
-          <p class="text-xs text-slate-600 font-mono">First Prize Winner • Technical Paper Presentation</p>
+          <h3 class="font-outfit font-bold text-slate-900 text-lg pt-1">ISTE Paper Presentation</h3>
+          <p class="text-xs text-slate-600 leading-relaxed">Secured First Prize for Technical Paper Presentation under the Indian Society for Technical Education (ISTE).</p>
         </div>
 
       </div>
